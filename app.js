@@ -18,5 +18,5 @@ app.use("/", mainRouter);
 
 mongoose.connect("mongodb://localhost:27017/movieartdb", {useUnifiedTopology: true}, function(err) {
 	if(err) return console.log(err);
-	app.listen(3000);
+	app.listen(8080);
 });
